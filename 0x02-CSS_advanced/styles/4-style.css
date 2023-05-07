@@ -1,0 +1,37 @@
+/* html should be as fluid as possible */
+html {
+  scroll-behavior: smooth;
+}
+
+/* headings declaration */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
+}
+
+/* required style for body, anchor and classed style */
+body, a {
+  color: var(--text-color);
+  font-family: var(--font-family-base);
+}
+
+/* visually hidden class declaration */
+.visually-hidden {
+  display: none;
+}
+
+/* category and tagline class declaration */
+.card-category, .section-tagline {
+  color: var(--color-primary);
+}
+
+/* variable declaration rules */
+:root {
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #fff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);
+  --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
