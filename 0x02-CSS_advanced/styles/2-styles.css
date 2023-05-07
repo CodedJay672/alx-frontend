@@ -1,0 +1,17 @@
+/* html should be as fluid as possible */
+html {
+  scroll-behavior: smooth;
+}
+
+bode, a {
+  color: #161616;
+}
+
+/* task 1: styles for body, anchor and classed elements */
+.visually-hidden {
+  display: none;
+}
+
+.card-category, .section-tagline {
+  color: #D73953;
+}
