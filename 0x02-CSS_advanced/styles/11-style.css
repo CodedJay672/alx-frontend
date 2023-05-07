@@ -42,7 +42,7 @@ a {
 
 .section-tagline {
   font-family: var(--font-family-title);
-  text-transform: var(--section-transform-tagline);
+  text-transform: var(--section-tagline-transform);
   font-weight: var(--font-weight-bold);
 }
 
