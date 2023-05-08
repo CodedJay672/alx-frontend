@@ -99,6 +99,10 @@ a:active {
   float: right;
 }
 
+.header {
+  overflow: hidden;
+}
+
 .nav {
   margin: 0;
   padding: 0;
