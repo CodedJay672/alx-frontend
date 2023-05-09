@@ -159,6 +159,7 @@ ul.row {
 
 /*generated content */
 .row::after {
+  content: none;
   display: table;
   clear: both;
 }
