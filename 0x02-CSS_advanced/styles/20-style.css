@@ -157,10 +157,11 @@ ul.row {
   color: var(--nav-item-link-hover);
 }
 
+/*generated content */
 .row::after {
   content: none;
   display: table;
-  float: none;
+  clear: both;
 }
 
 /* variable declaration rules */
