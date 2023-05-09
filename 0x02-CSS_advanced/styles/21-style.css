@@ -146,7 +146,7 @@ ul.row {
 
 .row::after {
   content: none;
-  float: none;
+  clear: both;
   display: table;
 }
 
