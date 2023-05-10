@@ -1,4 +1,4 @@
 /* html should be as fluid as possible */
 html {
-  scroll-behavior: scroll;
+  scroll-behavior: smooth;
 }
