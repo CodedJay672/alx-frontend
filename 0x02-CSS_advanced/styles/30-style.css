@@ -306,19 +306,19 @@ ul.row {
   position: relative;
 }
 
-.card-title a, .card-work a {
+.card-work .card-title a {
   display: block;
   text-decoration: none;
   padding-top: 45%;
 }
 
-.card-title a::after, .card-work a::after {
+.card-work .card-title a::after {
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
-  content: empty;
+  content: "";
 }
 
 .card-work:hover .card-title {
